@@ -1,0 +1,49 @@
+{
+  "name": "TaskUp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.17.11",
+    "@react-native-community/checkbox": "^0.5.14",
+    "@react-native-community/datetimepicker": "^6.7.1",
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-native-community/push-notification-ios": "^1.10.1",
+    "@react-navigation/bottom-tabs": "^6.5.2",
+    "@react-navigation/native": "^6.1.1",
+    "@react-navigation/stack": "^6.3.10",
+    "moment": "^2.29.4",
+    "react": "18.1.0",
+    "react-native": "0.70.6",
+    "react-native-elements": "^3.4.3",
+    "react-native-gesture-handler": "^2.8.0",
+    "react-native-modal-datetime-picker": "^14.0.1",
+    "react-native-push-notification": "^8.1.1",
+    "react-native-reanimated": "^2.13.0",
+    "react-native-safe-area-context": "^4.4.1",
+    "react-native-screens": "^3.18.2",
+    "react-native-vector-icons": "^9.2.0",
+    "react-redux": "^8.0.5",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.32.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "0.72.3",
+    "react-test-renderer": "18.1.0"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
