@@ -29,7 +29,7 @@ To install React Native, follow the instructions on [React Native Environment Se
 Clone the repository to your local machine.
 
 ```
-git clone https://github.com/<your-github-username>/TaskUp.git
+git clone https://github.com/Adewale-1/TaskUp.git
 ```
 
 Navigate into the cloned repository.
